@@ -5,9 +5,8 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact.jsx';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-
-
 
 
 
