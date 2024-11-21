@@ -1,9 +1,9 @@
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import About from './pages/About';
-import Skills from './pages/Skills';
-import Projects from './pages/Projects';
+import About from './components/About';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
 
 
 
