@@ -4,6 +4,10 @@ import './index.css'
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Contact from './components/Contact.jsx';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+
 
 
 
@@ -16,12 +20,9 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Home />,
-      },
-      {
-        path: '/About',
         element: <About />,
       },
+     
       {
         path: '/Skills',
         element: <Skills />,
