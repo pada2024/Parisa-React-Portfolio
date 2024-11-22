@@ -4,9 +4,9 @@ import { Link, useLocation } from 'react-router-dom';
 function NavTabs() {
   const currentPage = useLocation().pathname;
   
-  return  (<div class="navbar navbar-expand-lg navbar-light bg-light">
-    <p>Parisa Daily</p>
-    <ul className="nav nav-tabs ml-auto">
+  return  (<div class="d-inline">
+    <p> Parisa Daily</p>
+    <ul className="nav nav-tabs justify-content-end">
       
       <li className="nav-item">
         <Link
