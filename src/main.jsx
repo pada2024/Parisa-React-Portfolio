@@ -2,7 +2,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import About from './components/About';
-import Skills from './components/Skills';
+import Resume from './components/Resume.jsx';
 import Projects from './components/Projects';
 import Contact from './components/Contact.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -24,7 +24,7 @@ const router = createBrowserRouter([
      
       {
         path: '/Skills',
-        element: <Skills />,
+        element: <Resume />,
       },
       {
         path: '/Projects',
@@ -34,10 +34,16 @@ const router = createBrowserRouter([
         path: '/Contact',
         element: <Contact />,
       },
+      
     ],
   },
+
+  
+
 ]);
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
 );
+
