@@ -5,11 +5,6 @@ import React from 'react';
 import Footer from './components/Footer';
 import { useLocation } from "react-router-dom";
 
-
-
-
-
-
 function App() {
   const currentPage = useLocation().pathname;
   return (
@@ -19,6 +14,7 @@ function App() {
         <Outlet />
       </main>
       <Footer />
+
     </div>
   );
 }

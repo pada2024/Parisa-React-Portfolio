@@ -23,7 +23,7 @@ const router = createBrowserRouter([
       },
      
       {
-        path: '/Skills',
+        path: '/Resume',
         element: <Resume />,
       },
       {
