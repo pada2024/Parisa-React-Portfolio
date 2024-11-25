@@ -4,6 +4,8 @@ import { Outlet } from 'react-router-dom';
 import React from 'react';
 import Footer from './components/Footer';
 import { useLocation } from "react-router-dom";
+import SocialLinks from './components/SocialLinks';
+
 
 function App() {
   const currentPage = useLocation().pathname;
@@ -14,6 +16,10 @@ function App() {
         <Outlet />
       </main>
       <Footer />
+      <SocialLinks />
+      <p>Parisa Daily</p>
+      <p>Copyright &copy; {new Date().getFullYear()} Parisa React Portfolio</p>
+
 
     </div>
   );
