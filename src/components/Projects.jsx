@@ -1,11 +1,11 @@
 export default function Projects() {
     const projects = [
-        { title: "Project 1", imageUrl: "https://via.placeholder.com/150", link: "https://example.com/project1", repoLink: "https://github.com/user/project1" },
-        { title: "Project 2", imageUrl: "https://via.placeholder.com/150", link: "https://example.com/project2", repoLink: "https://github.com/user/project2" },
-        { title: "Project 3", imageUrl: "https://via.placeholder.com/150", link: "https://example.com/project3", repoLink: "https://github.com/user/project3" },
-        { title: "Project 4", imageUrl: "https://via.placeholder.com/150", link: "https://example.com/project4", repoLink: "https://github.com/user/project4" },
-        { title: "Project 5", imageUrl: "https://via.placeholder.com/150", link: "https://example.com/project5", repoLink: "https://github.com/user/project5" },
-        { title: "Project 6", imageUrl: "https://via.placeholder.com/150", link: "https://example.com/project6", repoLink: "https://github.com/user/project6" },
+        { title: "JavaScript Library", imageUrl: "https://via.placeholder.com/150", link: "https://ohkrah.github.io/JavaScript-Library/", repoLink: "https://github.com/Ohkrah/JavaScript-Library" },
+        { title: "non-Emerge", imageUrl: "https://via.placeholder.com/150", link: "https://example.com/project2", repoLink: "hhttps://github.com/Dragonung/non-emerge" },
+        { title: "Profession ReadMe Generator", imageUrl: "https://via.placeholder.com/150", link: "https://drive.google.com/file/d/18mbGOpI7yxas0VM6_5zbFsP5OSY45Meb/preview", repoLink: " https://github.com/pada2024/Professional-README-Generator-Application" },
+        { title: "RegEx", imageUrl: "https://via.placeholder.com/150", link: "https://gist.github.com/pada2024/60a5d21246a74c0169b1a14a99b58df4", repoLink: "  https://gist.github.com/pada2024" },
+        { title: "Note Taker", imageUrl: "https://via.placeholder.com/150", link: " https://pada2024.github.io/Note-Taker-/", repoLink: "https://github.com/pada2024/Note-Taker" },
+        { title: "JavaScript Payroll App", imageUrl: "https://via.placeholder.com/150", link: "https://pada2024.github.io/JavaScript-Payroll-App/", repoLink: "https://github.com/pada2024/JavaScript-Payroll-App" },
     ];
 
     return (
