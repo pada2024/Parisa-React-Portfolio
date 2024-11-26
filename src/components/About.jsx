@@ -1,9 +1,10 @@
-
+import Headshot from "../assets/headshot/Headshot.jpg";
+console.log('Headshot', Headshot);
 export default function About() {
     return (
         <section className="my-5"> 
             <h1 className="text-center pt-5"> Certified Junior Developer</h1>
-            <img src="src\assets\headshot\Headshot.jpg" alt="Parisa's Headshot" className="img-fluid mx-auto d-block"/>
+            <img src={Headshot} alt="Parisa's Headshot" className="img-fluid mx-auto d-block"/>
             <br>
 
             </br>
